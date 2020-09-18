@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1199px){
+    .container > .row{margin: 0;}
+    .clock-inner li{padding: 40px 30px;}
+    .trainer-image figure{width: 212px;}
+    .client-image figure{width: 109px;}
+    .client-desc h4{margin-bottom: 10px;}
+    .blog-content{padding: 36px 30px;}
+    .blog-img figure{width: 470px;height: 451px;}
+    .contact-info li address,.contact-number a,.contact-number span{font-size: 18px;line-height: 25px;}
+    .contact-info li i{font-size: 20px;}
+    .contact-info li address, .contact-info li .contact-number{width: calc(100% - 40px);}
+    .contact-info{margin-bottom: 30px;}
+    .client-info{padding: 25px 25px;}
+    .reach-us address{width: calc(100% - 19px) !important;vertical-align: middle;}
+    .serivces-link{top: 72px !important;}
+    .service-image{width: 387px;}
+    /*.client figure{width: 264px;}*/
+    .blog-content.best-service{padding: 100px 20px;}
+    .social-icon a{margin-right: 40px;}
+    .blog-section{min-height: 4638.33px;}
+    .blog-section{margin-bottom: 20px;}
+    .hire-us .item figure img{height: 300px;}
+    .slider-content{padding: 38px 0 0 0;}
+}
+
+@media only screen and (max-width: 991px){
+    .client-info{padding: 30px 30px;}
+    .trainer-image figure{width: 100%;}
+    .trainers-section{margin-bottom: 25px;}
+    .registration-info{margin-bottom: 60px;}
+    .clock-inner{margin-top: 40px;}
+    .course-image figure{width: 220px;height: 100%;}
+    .course-content{padding: 20px;}
+    .course-name{font-size: 13px;}
+    .meta-info{margin-top: 10px;}
+    .feature-list{padding: 20px 20px;min-height: 227px;}
+    .blog-img figure {width: 355px;padding: 80px 0;}
+    h4{line-height: 25px;font-size: 18px;}
+    h2,.registration-info h2{font-size: 32px;line-height: 34px;}
+    .features-section{padding: 0 0 60px 0;}
+    .main-title{margin-bottom: 30px;}
+    .tag{margin-bottom: 10px;}
+    .submit-btn{text-align: center;display: inline-block;float: none;}
+    .submit-btn .btn{width: auto;float: none;display: inline-block;padding: 10px 50px;}
+    .client-image figure {width: 100%;height: 100%;}   
+    .trainer-area,.about-area,.contact-area{padding: 40px 0;}
+    .registration-area{padding: 50px 0;}
+    .popular-courses {padding-bottom: 40px;}
+    .blog-img figure{width: 100%;padding: 0;}
+    .reach-us address{width: calc(100% - 19px) !important;vertical-align: middle;}
+    .service-image{width: 100%;height: 430px;}
+    .service-figure{margin-bottom: 20px;}
+    .slider-content{padding: 0 0 20px 0;}
+    /*.client figure{width: 100%;height: 400px;}*/
+    .footer ul{padding: 0;margin-bottom: 0;}
+    .tab-content{margin-top: 20px;}
+    .nav-tabs>li>a, .nav-tabs>li:hover>a{border: 1px solid transparent;}
+    .services{padding: 40px 0;}
+    .blog-content.best-service{padding: 40px 10px;margin-bottom: 30px;}
+    .about-area{padding: 100px 0 100px 0;}
+    .our-team{padding: 60px 0 60px 0;}
+    .our-team-section .our-team-image{margin-bottom: 30px;}
+    .our-team-section:last-child .our-team-image{margin-bottom: 0px;}
+    .blog-img figure img{object-fit: cover;}
+    .blog-img{margin-bottom: 30px;}
+    .blog-section{min-height: 100%;}
+}
+
+@media only screen and (max-width: 767px){
+    /* .header{background-color: #868686;} */
+    .header-menu li{float: left;width: 100%;padding: 0;}
+    .feature-list,.courses-info,.trainers-section{margin-bottom: 20px !important;}
+    .trainers-section{margin-bottom: 20px;}
+    /* .trainers-section:last-child{margin-bottom: 0px;} */
+    .course-image figure{width: 100%;}
+    .price{width: 55px;height: 55px;line-height: 56px;top: -28px;}
+    .clock-inner li{padding: 20px 9px;margin-right: 10px;}
+    .counts{font-size: 12px;}
+    .client-image figure{width: 200px;height: 100%;float: none;display: inline-block;}
+    .banner-content h2{font-size: 32px;line-height: 35px;}
+    .learn-more,.see-course{padding: 10px 15px;}
+    .header-menu li{margin-right: 0;margin-bottom: 10px;}
+    /*.header{padding: 10px 0;}*/
+    .navbar-right{margin-top: 15px;width: 100%;}
+    .header-menu li a{line-height: 20px;}
+    .blog-img figure {width: 100%;padding: 0;}
+    .about-area {padding: 50px 0;}
+    .main-title{margin-bottom: 30px;}
+    .footer{padding: 40px 0;}
+    .footer h4{margin-bottom: 10px;}
+    .footer ul li{margin-bottom: 5px;}
+    .input-field{margin-bottom: 20px;}
+    .contact-info li address,.contact-number a,.contact-number span{font-size: 14px;line-height: 20px;}
+    .contact-area{padding: 60px 0;}
+    .contact-submit-btn{text-align: center;}
+    .contact-submit-btn .submit-btn{float: none;display: inline-block;width: auto;}
+    .registration-info p{font-size: 13px;}
+    .banner-content{min-height: 360px;padding: 100px 0;}
+    .navbar-nav .open .dropdown-menu>li>a{line-height: 10px;}
+    .copy-right-info{margin-bottom: 5px;}
+    .copy-right-wrapper:last-child .copy-right-info{margin-bottom: 0;}
+    .copy-right{text-align: center;}
+    .copy-right p{font-size: 14px;line-height: 20px;}
+    .registration-info{margin-bottom: 30px;}
+    .submit-response{padding: 0;}
+    .register-form{padding: 30px 30px;}
+    .navbar-toggle{padding: 24px 10px;}
+    .feature-list{min-height: 0;}
+    .trainer-text,.course-content{padding: 20px 25px;float: none;display: inline-block;text-align: center;width: 238px;}
+    .trainers-section,.courses-info{display: inline-block;text-align: center;float: none;padding: 20px 0;}
+    .trainer-image figure,.course-image figure {width: 235px;height: 100%;float: none;display: inline-block;}
+    .trainer-image,.course-image{float: none;display: inline-block;text-align: center;width: 100%;}
+    .course-name{text-align: left;}
+    .client-image {float: none;display: inline-block;text-align: center;}
+    .client-desc.full-width {width: 280px;float: none;display: inline-block;max-width: 100%;}
+    .client-info{text-align: center;margin-bottom: 15px;padding: 10px 0;}
+    .client-desc p{font-size: 13px;line-height: 20px;}
+    .service-image{height: 350px;}
+    .nav-tabs li a{padding: 15px 10px;}
+    .session-time{margin-top: 50px;}
+    .auto-width-form{padding: 30px 20px;}
+    .form-section .main-title{margin-bottom: 10px;}
+    .info{margin-top: 0;padding: 50px 0 10px 0;}
+    .features-section{padding: 0 0 40px 0;}
+    .nav-tabs>li{width: 100%;}
+    .nfo{margin-top: 0;}
+    .banner-content.inner-banner{padding: 60px 0;}
+    .blog-img figure{float: none;display: inline-block;width: 100%;height: 300px;}
+    .blog-img{text-align: center;}
+    .blog-content.best-service{padding: 20px 10px;}
+    .best-service span{font-size: 80px;line-height: 60px;}
+    .courses-info{padding: 0;}
+    .blog{padding: 40px 0;}
+    .blog-content-section{padding-top: 40px;}
+    .inner-banner-section {min-height: 440px;}
+    .blog-content{padding: 20px 20px;}
+}

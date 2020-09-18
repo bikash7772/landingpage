@@ -1,0 +1,269 @@
+/*RESET CSS START*/
+    ul{list-style-type: none;padding: 0;margin: 0;text-decoration: none;}
+    a{text-decoration: none;}
+    h1,h2,h3,h5,h6,body,p,input,span,form,header,figure,label,strong,bold{margin: 0;font-weight: normal;}
+    *{box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing: border-box;-moz-box-sizing: border-box;}
+    img{max-width: 100%;}
+    body{font-family: 'Signika Negative', sans-serif;}
+    ::-webkit-input-placeholder {opacity: 1; } ::-moz-placeholder {opacity: 1; } :-ms-input-placeholder {opacity: 1; } :-moz-placeholder {opacity: 1;}
+    ::-webkit-input-placeholder {color: #ffffff;} ::-moz-placeholder {color: #ffffff;} :-ms-input-placeholder {color: #ffffff;} :-moz-placeholder {color: #ffffff;}
+    ::-webkit-textarea-placeholder{font-size: 18px;}
+    .search-box input[type="search"]::-webkit-input-placeholder{font-size: 20px;color: #fff;}
+    .search-box input[type="search"]::-moz-placeholder{font-size: 20px;color: #fff;}
+    address{font-style: normal;}
+    select {-webkit-appearance: none; -moz-appearance: none; appearance: none;}
+    option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em; padding: 0px 2px 1px; }
+    .nav>li>a:focus, .nav>li>a:hover{background-color: #fff;}
+    .navbar-collapse{border: none !important;box-shadow: none !important;}
+    :focus {outline: none;}
+    .form-control:focus{box-shadow: none;}
+    a:hover{text-decoration: none;}
+    address{margin-bottom: 0;}
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{background-color: transparent;}
+    .btn.focus, .btn:focus, .btn:hover {color: #fff;text-decoration: none;border-color: transparent;}
+    .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{outline: none;}
+    .nav-tabs{border: none;}
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background-color: transparent;border: none;}
+/*RESET CSS END*/
+
+/* COMMON CSS START */
+    .full-width{float: left;width: 100%;}
+    .auto-width{float: left;}
+    h1,h2,h3,h4,h5,h6,p{float: left;width: 100%;}
+    .header-menu li a,.learn-more,.see-course,.box-shadow1,.courses-info,.price,.course-name,.submit-btn .btn,.learn-more-btn,.learn-more-btn i,.tag,.modal-btn,.footer ul li a,.footer ul li address, .footer ul li .contact,.footer ul li i,.fixed-header{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;}
+    .center{text-align: center;}
+    .fixed{position: fixed;z-index: 111;}
+    .bg-white{background-color: #fff;}
+    .box-shadow{-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);}
+    .text-capitalize{text-transform: uppercase;}
+    p{color: #7b838a;font-size: 16px;line-height: 20px;font-weight: 400;line-height: 30px}
+    h2{color: #002347;font-size: 36px;line-height: 40px;margin-bottom: 15px;font-weight: 700;}
+    h4{font-size: 22px;line-height: 30px;margin: 0;color: #002347;font-weight: 600;}
+    h3{font-weight: 700;color: #002347;font-size: 25px;}
+    h5{font-size: 22px;}
+    .main-title{text-align: center;margin-bottom: 30px;}
+    ::selection,-moz-selection,-webkit-selection,-ms-selection,-moz-selection,-o-selection{background-color: #002347;color: #fdc632;}
+    .form-control:focus{border-color: #ccc;}
+   /* .box-shadow1{box-shadow: 0px 0px 18px rgba(0,0,0,0.5);}*/
+    .center{text-align: center;}
+    .sub-title h2{margin-bottom: 0;}
+    .sub-title{margin-bottom: 30px;}
+/* COMMON CSS END */
+
+/* HEADER CSS START */
+    header{padding: 8px 0;z-index: 11;background-color: transparent;position: fixed;}
+    .navbar-nav>li>a,.navbar-brand{padding: 0;}
+    .navbar-brand{height: 18px;}
+    .search-here img{width: 18px;height: 18px;float: left;}
+    .header-menu li{float: left;margin-right: 40px;padding: 21px 0;}
+    .header-menu li:last-child{margin-right: 0;}
+    .header-menu li a{float: left;width: 100%;font-size: 15px;line-height: 23px;color: black;font-weight: 600;}
+    .header-menu li a:hover{color: #fdc632;background-color: transparent;}
+    .navbar-toggle .icon-bar{background-color: #fdc632;}
+    .navbar-toggle,.navbar-nav{margin: 0 !important;}
+    .header .form-control{border: none;box-shadow: none;background-color: transparent;color: #fff;}
+    .header .form-group{margin-bottom: 0;display: flex;flex-wrap: wrap;width: 90%;margin-right: 50px;}
+    .header-form{display: none;position: relative;top: 0;}
+    #close_search{color: #fff;font-weight: 600;cursor: pointer;padding: 10px 0;display: flex;flex-wrap: wrap;}
+    .search-input{background-color: #fdc632;}
+    .search-field{display: flex;flex-wrap: wrap;padding: 10px 0;}
+    .logo{color: #002347;float: left;height: 65px;width: 125px;}
+    .logo span{float: left;width: 100%;font-size: 15px;}
+    .serivces-link{top: 73px !important;right: -80px !important;border: none !important;padding: 10px 0;}
+    .serivces-link li{margin-right: 0;width: 100%;margin-bottom: 10px;padding: 0;}
+    .serivces-link li:last-child{margin-bottom: 0;}
+    .serivces-link li a{line-height: 20px;}
+    .dropdown i{margin-left: 6px;font-size: 12px;}
+    .search-here{margin-top: 10px;}
+    header.fixed-header {position: fixed;top: 0;background-color: #ffffff;padding: 10px 20px;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);}
+    ul.submenu {position: absolute;left: -60px;top: 75px;right: 0;float: left;width: 100%;background-color: #fff;padding: 20px;margin: 0;visibility: hidden;opacity: 0;transition: ease all .4s;min-width: 220px;box-shadow: 0px 0px 18px rgba(0,0,0,0.5);}
+    li.hover-menu:hover .submenu {visibility: visible;opacity: 1;}
+    .submenu li{float: left;width: 100%;margin-right: 0;padding: 0;margin-bottom: 10px;}
+    .hover-menu a i{font-size: 12px;line-height: 16px;margin-left: 5px;}
+/* HEADER CSS END */
+
+/*BANNER CSS START*/
+    .banner{position: relative;width: 100%;padding-top: 80px;min-height: 550px;}
+    .inner-banner-section{min-height: 450px;}
+    .banner figure {float: left;width: 100%;position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: auto;width: 100%;height: 100%;object-fit: cover;}
+    .banner figure img {width: 100%;height: 100%;object-fit: cover;}
+    .banner-content{width: 100%;position: relative;text-align: center;padding: 150px 0;width: 400px;max-width: 100%;float: left;}
+    .inner-banner .banner-content{padding: 127px 0;width: 100%;}
+    .bigger{float: left;width: 100%;font-weight: 900;font-size: 45px;line-height: 50px;margin-bottom: 10px;}
+    .learn-more{color: #fdc632;background-color: #002347;border: 2px solid transparent;padding: 10px 30px;margin-right: 10px;font-size: 14px;line-height: 20px;font-weight: 400;}
+    .see-course{color: #002347;background-color: #fdc632;border: 2px solid transparent;padding: 10px 30px;font-size: 14px;line-height: 20px;font-weight: 400;}
+    .learn-more:hover{background-color: transparent;color: #002347;border: 2px solid #002347;}
+    .see-course:hover{color: #fdc632;background-color: #002347;border: 2px solid #002347;}
+    .banner-content h2{margin-bottom: 30px;font-size: 45px;line-height: 55px;margin-bottom: 30px;color: #fff;font-weight: 700;}
+    .banner-content p{font-size: 25px;line-height: 30px;color: #fff;margin-bottom: 14px;font-weight: 600;text-align: left;}
+    .inner-banner h1,.inner-banner p{color: #fff !important;font-weight: 900;}
+    .inner-banner{padding: 150px 0;float: left;width: 100%;}
+    .inner-banner.blog-banner{padding: 150px 0;}
+/*BANNER CSS END*/
+
+
+/* Form css start */
+    .form-section-internship .form-group input,.form-section-internship select{border-radius: 25px;height: 35px;padding: 15px 42px;} .form-section-internship select{padding: 10px 40px;margin-bottom: 15px;}
+    .radio-section{margin-bottom: 30px;}
+    .form-section{padding-bottom: 50px;}
+    .internship-btn a{box-shadow: 0 10px 29px 2px rgba(239,139,117,0.8);padding: 13px 80px;background-image: -moz-linear-gradient(47deg,#ef4559 0,#ee8219 100%);background-image: -webkit-linear-gradient(47deg,#ef4559 0,#ee8219 100%);transition: all .4s;color: #fff;border-radius: 25px;}
+    .career-form{position: relative;}
+    .career-form span{position: absolute;left: 0;top: 11px;padding: 0px 15px;}
+    .caret-dropdown{position:absolute;right: 0px;top: 11px;left: auto !important;}
+    .file{margin-bottom:75px;}
+    .file input{box-shadow: none !important;border: none !important;}
+    .interview h2{font-size: 30px;}
+    .register-here h2{margin-bottom:56px ;margin-top: 40px}
+    .interview .internship-btn{margin-top: 107px;}
+/* Form css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*why hire us css start*/
+
+   .nfo{padding: 70px 0 40px 0;}
+   .hire-us .item figure img{height: 350px;}
+   .slider-content{padding: 65px 0;}
+   .hire-us .owl-nav{display: none;}
+/*why hire us ends*/
+
+
+
+
+
+
+/* FOOTER CSS START */
+    /* .footer-section{} */
+    .footer{background-color: #002347;padding: 40px 0;}
+    .footer h4{color: #fff;margin-bottom: 20px;}
+    .footer ul{display: inline-block;vertical-align: middle;float: none;padding: 0;}
+    .footer ul li{display: inline-block;width: 100%;margin-bottom: 10px;}
+    .footer ul li a{width: 100%;}
+    .footer ul li a,.reach-us{color: #7b838a;}
+    .footer ul li a:hover,.reach-us:hover{color: #fdc632;}
+    .reach-us address{width: calc(100% - 65px) !important;padding-left: 10px;display: inline-block;}
+    .contact{width: calc(100% - 148px) !important;}
+    .social-icon a{margin-right: 50px;}
+    .social-icon a:last-child{margin-right: 0;}
+    .reach-us span{float: left;width: 100%;}
+    .reach-us{display: inline-block;vertical-align: middle;float: none;}
+    .email.contact{display: inline-block;width: auto !important;}
+    .reach-us:hover i,.reach-us:hover a{color: #fdc632;}
+    .reach-us:hover span{color: #7b838a;}
+    .reach-us a{padding-left: 10px;}
+    .copy-right{padding: 20px 0;}
+    .copy-right p{color: #002347;font-size: 15px;line-height: 20px;}
+/* FOOTER CSS END */
+
+
+/* ABOUT PAGE CSS START */
+    .inner-banner-section{min-height: 500px;}
+    .contact-banner{min-height: 650px;}
+    .inner-banner p{color: #002347;}
+    .about-area{padding: 100px 0;}
+    .blog-content{padding: 76px 40px;border: 10px solid #f9f9ff;}
+    .blog-content h3{font-size: 30px;line-height: 40px;}
+    .best-service h3{font-size: 60px;line-height: 60px;margin-bottom: 10px;}
+    .blog-content.best-service{padding: 126px 20px;text-align: center;}
+    .best-service span{float: left;width: 100%;font-size: 100px;line-height: 100px;font-weight: 900;}
+    .blog-content p{margin-bottom: 15px;line-height: 24px;}
+    .learn-more-btn{padding: 10px 30px;background-color: #fdc632;color: #002347;font-weight: 400;font-size: 14px;line-height: 18px;border-radius: 0;}
+    .learn-more-btn i{color: #002347;}
+    .learn-more-btn:hover{background-color: #002347;color: #fdc632;}
+    .learn-more-btn:hover i{color: #fdc632;}
+    .blog-img figure{float: left;width: 570px;height: 443px;}
+    .blog-img figure img{float: left;width: 100%;height: 100%;}
+    .inner-banner h1{margin-bottom: 20px;color: #002347;}
+    .inner-banner p{margin-bottom: 0px;text-align: center;}
+    .inner-banner p:last-child{margin-bottom: 0px;}
+    .our-team-image figure{float: none;display: inline-block;width: 200px;height: 200px;margin-bottom: 10px;}
+    .our-team-image figure img{float: left;width: 100%;height: 100%;border-radius: 50%;object-fit: cover;}
+    .our-team{padding: 70px 0;}
+    .best-it{padding-bottom: 50px;}
+    .our-team-image span{float: left;width: 100%;font-weight: 600;font-size: 16px;line-height: 20px;}
+    .our-team-image h5{margin-bottom: 10px;}
+    .blog-section figure{display: inline-block;width: 200px;height: 188px;margin-bottom: 10px;}
+    .blog-section figure img{float: left;width: 100%;height: 100%;}
+    .blog-section .img-caption{float: left;width: 100%;font-weight: 600;font-size: 20px;line-height: 20px;margin-bottom: 10px;}
+    .blog-content-section{padding-top: 70px;}
+    .blog-desc p{margin-bottom: 10px;}
+    .blog-desc ul,.blog-desc ul li{float: left;width: 100%;}
+    .blog-desc ul li{color: #7b838a;font-weight: 400;line-height: 30px;font-size: 16px;margin-bottom: 10px;}
+    /*.blog-desc ul li:last-child{margin-bottom: 0;}*/
+    .blog-desc ul li{position: relative;padding-left: 20px;}
+    .blog-desc ul li::before{position: absolute;content: '';background-color: #000;width: 8px;height: 8px;border-radius: 50%;top: 12px;left: 0;}
+    /* POPULAR COURSES CSS START */
+    .course-content{position: relative;padding: 30px 30px;background-color: #f9f9ff;}
+    .price{position: absolute;right: 15px;background-color: #fdc632;color: #002347;width: 65px;height: 65px;border-radius: 50%;font-size: 16px;line-height: 64px;top: -34px;text-align: center;font-weight: 700;}
+    .tag{font-size: 14px;line-height: 20px;padding: 5px 20px;color: #fff;background-color: #002347;float: left;margin-bottom: 20px;font-weight: 400;border-radius: 0;}
+    .courses-info:hover .tag{background-color: #fdc632;color: #fff;}
+    .course-name{font-size: 20px;line-height: 30px;color: #002347;float: left;width: 100%;font-weight: 800;}
+    .course-content p{color: #7b838a;line-height: 26px;}
+    .course-meta{margin-right: 20px;float: none;display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center;}
+    .authr-meta{width: auto;display: inline-block;vertical-align: middle;}
+    .authr-meta img{width: auto;display: inline-block;margin-right: 10px;}
+    .authr-meta span{color: #002347;font-weight: 600;}
+    .meta-info{float: right;}
+    .meta-info a:first-child{margin-right: 15px;}
+    .meta-info a{color: #002347;}
+    .meta-info a i{margin-right: 5px;}
+    .course-image{overflow: hidden;}
+    .course-image figure{width: 369px;height: 200px;}
+    .course-image figure img{float: left;width: 100%;height: 100%;transform: scale(1) translate3d(0, 0, 0);transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);object-fit: cover;}
+    .courses-info:hover .course-image figure img{transform: scale(1.1) translate3d(0, 0, 0);}
+    .courses-info:hover {box-shadow: 0px 0px 18px rgba(0,0,0,0.5);}
+    .courses-info:hover .price{background-color: #002347;color: #fdc632;}
+    .courses-info:hover .course-name{color: #fdc632;}
+    .popular-courses{padding-bottom: 100px;padding-top: 70px;}
+    .courses-info{margin-bottom: 30px;}
+    .blog-section{padding: 30px 20px;background-color: #fff;min-height: 3918.33px;}
+    .code-demo{padding: 10px!important;background-color: #eeeef0 !important;margin-bottom: 10px !important;}
+    .code-demo span{background-color: transparent !important;}
+    .written-by{background-color: #fff !important;float: right;}
+    .blog-section h4{margin-bottom: 15px;}
+/* POPULAR COURSES CSS END */
+
+/* ABOUT PAGE CSS END */
+
+/* CONTACT PAGE CSS START */
+    .contact-area{padding: 100px 0;}
+    .contact-info li{float: left;width: 100%;margin-bottom: 10px;}
+    .contact-info li:last-child{margin-bottom: 0;}
+    .contact-info li address,.contact-info li .contact-number{padding-left: 12px;width: calc(100% - 20px);display: inline-block;vertical-align: middle;}
+    .contact-number a{float: left;width: 100%;color: #002347;font-size: 14px;line-height: 20px;}
+    .contact-number span{float: left;width: 100%;color: #002347;font-size: 14px;line-height: 20px;}
+    .contact-page-form .form-control{border-radius: 0;}
+    .input-field .form-group:last-child{margin-bottom: 0;}
+    .contact-page-form textarea.form-control{height: 132px;}
+    .contact-submit-btn .btn{float: right;width: auto;padding: 10px 50px;}
+    .blog-desc span{background-color: #d0d0d5;display: inline-block;padding: 0 10px;line-height: 20px;}
+/* CONTACT PAGE CSS END */
+
+
+
+/*/* MODAL CSS START */
+    .modal-body p{margin-bottom: 10px;line-height: 25px;}
+    /* .modal-body p:last-child{margin-bottom: 0;} */
+    .modal-btn{background-color: #002347;color: #fdc632;padding: 10px 30px;border-radius: 0;}
+    .modal-btn:hover{color: #002347;background-color: #fdc632;border-color: #fdc632;}
+    .app-image{display: flex;flex-wrap: wrap;justify-content: space-around;}
+    .app-image li{float: left;height: 100%;}
+    .app-image li img{float: left;width: 130px;height: 137px;}
+    .modal-footer,.modal-header{border: none;}
+    .modal-body{float: left;width: 100%;}
+    .modal-header,.modal-body{padding: 0 15px;}
+/* MODAL CSS END */

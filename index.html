@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta charset="utf-8" />
+    <meta name="description" content="WebizyITsolutions" />
+    <title>Webizy</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="full-width fixed bg-white box-shadow">
+      <div class="header full-width">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand logo" href="index.html">
+                <img src="images/logo.png" alt="Webizy" />
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <div class="auto-width navbar-right">
+                <ul class="nav navbar-nav header-menu">
+                  <li>
+                    <a href="index.html" target="_blank">Home</a>
+                  </li>
+                  <li>
+                    <a href="https://webizysolutions.com" target="_blank"
+                      >Visit Website</a
+                    >
+                  </li>
+                  <li>
+                    <a href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- banner start -->
+    <section class="banner full-width">
+      <figure><img src="images/home.jpg" alt="banner" title="banner" /></figure>
+      <div class="container">
+        <div class="row">
+          <div class="banner-content full-width">
+            <p class="text-uppercase">
+              <span class="bigger">Best INTERNSHIP</span> With Us.
+            </p>
+            <h2 class="text-uppercase bigger">"One Step Ahead"</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <section class="full-width form-section">
+      <div class="container">
+        <div class="row">
+          <div class="full-width">
+            <div class="row">
+              <div class="full-width">
+                <form
+                  class="full-width form-section-internship box-shadow1 register-here"
+                  id="myform"
+                >
+                  <h2 style="text-align: center">Register here for Internship</h2>
+                  <div class="form-group career-form full-width">
+                    <span> <i class="fa fa-user" aria-hidden="true"></i></span>
+                    <input
+                      type="text"
+                      class="form-control box-shadow1"
+                      id="firstname"
+                      name="fname"
+                      placeholder="First Name"
+                      onfocusout="validatefirstname()"
+                    />
+                    <small id="fname"></small>
+                  </div>
+                  <div class="form-group career-form full-width">
+                    <span> <i class="fa fa-user" aria-hidden="true"></i></span>
+                    <input
+                      type="text"
+                      class="form-control box-shadow1"
+                      id="lastname"
+                      placeholder="Last Name"
+                      onfocusout="validatelastname()"
+                    />
+                    <small id="lname"></small>
+                  </div>
+
+                  <div class="form-group career-form full-width">
+                    <span> <i class="far fa-envelope"></i></span>
+                    <input
+                      type="email"
+                      class="form-control box-shadow1"
+                      id="email"
+                      placeholder="Email"
+                      onfocusout="validateemail()"
+                    />
+                    <small id="ema"></small>
+                  </div>
+                  <div class="form-group career-form full-width">
+                    <span> <i class="fa fa-building" aria-hidden="true"></i></span>
+                    <input
+                      type="text"
+                      class="form-control box-shadow1"
+                      id="college"
+                      placeholder="College"
+                      onfocusout="validatecollege()"
+                    />
+                    <small id="col"></small>
+                  </div>
+                  <div class="form-group career-form full-width">
+                    <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <input
+                      type="number"
+                      class="form-control box-shadow1"
+                      id="contact"
+                      placeholder="Contact Number"
+                      onfocusout="validatecontact()"
+                    />
+                    <small id="con"></small>
+                  </div>
+                  <div class="form-group career-form full-width">
+                    <span> <i class="fa fa-user" aria-hidden="true"></i></span>
+                    <input
+                      type="text"
+                      class="form-control box-shadow1"
+                      id="description"
+                      placeholder="Describe about yourself"
+                      onfocusout="validatedescription()"
+                    />
+                    <small id="desc"></small>
+                  </div>
+                  <div class="form-group career-form full-width">
+                    <span><i class="fa fa-book" aria-hidden="true"></i></span>
+                    <select
+                      class="form-control box-shadow1"
+                      id="interest"
+                      onfocusout="validateinterest()"
+                    >
+                      <option>Select Your Field of interest</option>
+                      <option>Web development</option>
+                      <option>Business development</option>
+                      <option>UUI/UX,Graphics designing</option>
+                    </select>
+                    <span class="caret-dropdown">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </span>
+                    <small id="int"></small>
+                  </div>
+
+                  <div class="full-width internship-btn">
+                    <a class="btn" type="submit" role="button" onclick="submitData()"
+                      >Submit</a
+                    >
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why hire us start-->
+    <section class="nfo full-width">
+      <div class="container">
+        <div class="row">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8">
+              <div class="full-width slider-content">
+                <h2>When you Hire us, You Hire Quality and Excellence</h2>
+                <p>
+                  No matter the Technology or Services By entrusting your faith and time
+                  in us, Webizy IT solutions makes sure your investment is in the right
+                  hands. Showing flexibility in our work and delivering results have been
+                  the key drivers of our growth. Taking the innovative approach to
+                  transform your ideas into reality, you just have to relax and let our
+                  Professionals pave the path towards the realization of your ideas into
+                  reality!
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+              <div class="owl-carousel owl-theme hire-us">
+                <div class="item">
+                  <figure>
+                    <img src="images/image7.jpg" alt="image" title="imgae" />
+                  </figure>
+                </div>
+                <div class="item">
+                  <figure>
+                    <img src="images/image8.jpg" alt="image" title="imgae" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why hire us ends -->
+
+    <!-- Footer start -->
+    <section class="full-width footer-section">
+      <div class="footer full-width">
+        <div class="container">
+          <div class="row">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="full-width">
+                  <h4>Services</h4>
+                  <ul class="full-width">
+                    <li>
+                      <a href="javascript:void(0)">Web Development</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Application Development</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">SAAS</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Online Trainings</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Workshops</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Projects</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">UX Designing</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="full-width">
+                  <h4>Important Links</h4>
+                  <ul class="full-width">
+                    <li>
+                      <a href="about.html">About </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Services</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="full-width">
+                  <h4>Contact Us</h4>
+                  <ul class="full-width">
+                    <li>
+                      <div class="reach-us full-width">
+                        <i class="fas fa-home"></i>
+                        <address>
+                          City Centre, Bokaro Steel City, Jharkhand, India
+                        </address>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="reach-us full-width">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:6202824886" class="contact">+91-6202824886</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="reach-us full-width">
+                        <i class="far fa-envelope"></i>
+                        <a
+                          href="mailto:support@webizysolutions.com"
+                          class="contact email"
+                        >
+                          support@webizysolutions.com</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <div class="reach-us full-width">
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:hr@webizysolutions.com" class="contact email">
+                          hr@webizysolutions.com</a
+                        >
+                      </div>
+                    </li>
+                    <li class="socila-links">
+                      <div class="social-icon full-width">
+                        <a
+                          href="https://www.facebook.com/webizyITsolutions"
+                          target="_blank"
+                        >
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/company/webizy-it-solutions"
+                          target="_blank"
+                        >
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/webizy.it/" target="_blank">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right full-width">
+        <div class="container">
+          <div class="row">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 copy-right-wrapper">
+                <div class="full-width copy-right-info">
+                  <p>Copyright © 2020</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 copy-right-wrapper">
+                <div class="full-width copy-right-info">
+                  <p>All Rights Reserved</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 copy-right-wrapper">
+                <div class="full-width copy-right-info">
+                  <a href="https://webizysolutions.com" target="_blank"
+                    >Made By WEBIZY team</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer end -->
+    <script src="./js/submitdata.js"></script>
+  </body>
+</html>
