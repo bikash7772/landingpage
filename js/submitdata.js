@@ -6,6 +6,7 @@ function submitData() {
   let contact = document.getElementById("contact").value;
   let description = document.getElementById("description").value;
   let interest = document.getElementById("interest").value;
+  document.getElementById("submitbtn").innerHTML = "Loading...";
 
   var myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
@@ -32,8 +33,12 @@ function submitData() {
     .then((result) => {
       alert("ThanKyou");
       document.getElementById("myform").reset();
+      document.getElementById("submitbtn").innerHTML = "submit";
     })
-    .catch((error) => console.log("error", error));
+    .catch((error) => {
+      console.log("error", error);
+      document.getElementById("submitbtn").innerHTML = "submit";
+    });
 }
 
 function validatefirstname() {
