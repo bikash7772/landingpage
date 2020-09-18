@@ -31,8 +31,18 @@ function submitData() {
   fetch("https://intershipserver.herokuapp.com/api/addData", requestOptions)
     .then((response) => response.text())
     .then((result) => {
-      alert("ThanKyou");
       document.getElementById("myform").reset();
+      let modal = document.getElementById("myModal");
+      modal.style.display = "block";
+      var span = document.getElementsByClassName("close")[0];
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
       document.getElementById("submitbtn").innerHTML = "submit";
     })
     .catch((error) => {
@@ -113,15 +123,5 @@ function validatedescription() {
   } else {
     document.getElementById("description").style.borderColor = "green";
     document.getElementById("desc").innerHTML = "";
-  }
-}
-function validateinterest() {
-  let interest = document.getElementById("interest").value;
-  if (!interest) {
-    document.getElementById("interest").style.borderColor = "red";
-    document.getElementById("int").innerHTML = "* Field can not be empty";
-  } else {
-    document.getElementById("interest").style.borderColor = "green";
-    document.getElementById("int").innerHTML = "";
   }
 }

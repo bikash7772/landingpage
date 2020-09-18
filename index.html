@@ -190,7 +190,17 @@
                       class="btn"
                       type="submit"
                       role="button"
-                      onclick="submitData()"
+                      onclick="
+                      submitData();
+                      validateemail();
+                      validatefirstname();
+                      validatedescription();
+                      validatecollege();
+                      validatecontact();
+                      validatedescription();
+                      validatelastname();
+                      validateinterest();
+                      "
                       id="submitbtn"
                       >Submit</a
                     >
@@ -202,6 +212,18 @@
         </div>
       </div>
     </section>
+    <!-- model start -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <figure>
+          <img src="./images/logo.png" alt="webizylogo" />
+        </figure>
+        <p>Thankyou for showing your interest with us</p>
+        <p>Your record saved Successfully.....</p>
+      </div>
+    </div>
 
     <!-- why hire us start-->
     <section class="nfo full-width">
