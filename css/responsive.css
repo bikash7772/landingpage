@@ -64,6 +64,7 @@
     .blog-img figure img{object-fit: cover;}
     .blog-img{margin-bottom: 30px;}
     .blog-section{min-height: 100%;}
+    .form-section-internship{padding: 0 25px;}
 }
 
 @media only screen and (max-width: 767px){
@@ -134,4 +135,5 @@
     .blog-content-section{padding-top: 40px;}
     .inner-banner-section {min-height: 440px;}
     .blog-content{padding: 20px 20px;}
+    
 }

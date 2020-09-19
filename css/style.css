@@ -104,6 +104,7 @@
 
 /* Form css start */
     .form-section-internship .form-group input,.form-section-internship select{border-radius: 25px;height: 35px;padding: 15px 42px;} .form-section-internship select{padding: 10px 40px;margin-bottom: 15px;}
+    .form-section-internship{padding: 0 150px;}
     .radio-section{margin-bottom: 30px;}
     .form-section{padding-bottom: 50px;}
     .internship-btn a{box-shadow: 0 10px 29px 2px rgba(239,139,117,0.8);padding: 13px 80px;background-image: -moz-linear-gradient(47deg,#ef4559 0,#ee8219 100%);background-image: -webkit-linear-gradient(47deg,#ef4559 0,#ee8219 100%);transition: all .4s;color: #fff;border-radius: 25px;}
